@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-16T00:00:00Z",
+  "title": "Design System: Kappa Solutions",
+  "extensions": {
+    "colorMeta": {
+      "navy": { "role": "primary", "displayName": "Harbor Navy", "canonical": "oklch(23.8% 0.063 258.5)", "tonalRamp": ["oklch(15% 0.037 258.5)", "oklch(27% 0.059 258.5)", "oklch(39% 0.063 258.5)", "oklch(51% 0.063 258.5)", "oklch(63% 0.063 258.5)", "oklch(75% 0.063 258.5)", "oklch(87% 0.052 258.5)", "oklch(95% 0.037 258.5)"] },
+      "navy-800": { "role": "primary", "displayName": "Harbor Navy, Raised", "canonical": "oklch(28.6% 0.071 257.9)", "tonalRamp": ["oklch(15% 0.042 257.9)", "oklch(27% 0.066 257.9)", "oklch(39% 0.071 257.9)", "oklch(51% 0.071 257.9)", "oklch(63% 0.071 257.9)", "oklch(75% 0.071 257.9)", "oklch(87% 0.058 257.9)", "oklch(95% 0.042 257.9)"] },
+      "ocean": { "role": "secondary", "displayName": "Ocean Blue", "canonical": "oklch(50.1% 0.165 258.4)", "tonalRamp": ["oklch(15% 0.097 258.4)", "oklch(27% 0.154 258.4)", "oklch(39% 0.165 258.4)", "oklch(51% 0.165 258.4)", "oklch(63% 0.165 258.4)", "oklch(75% 0.165 258.4)", "oklch(87% 0.135 258.4)", "oklch(95% 0.097 258.4)"] },
+      "ocean-700": { "role": "secondary", "displayName": "Ocean Blue, Deep", "canonical": "oklch(43.2% 0.139 258.3)", "tonalRamp": ["oklch(15% 0.082 258.3)", "oklch(27% 0.13 258.3)", "oklch(39% 0.139 258.3)", "oklch(51% 0.139 258.3)", "oklch(63% 0.139 258.3)", "oklch(75% 0.139 258.3)", "oklch(87% 0.114 258.3)", "oklch(95% 0.082 258.3)"] },
+      "amber": { "role": "tertiary", "displayName": "Signal Amber", "canonical": "oklch(78.2% 0.158 72.3)", "tonalRamp": ["oklch(15% 0.093 72.3)", "oklch(27% 0.148 72.3)", "oklch(39% 0.158 72.3)", "oklch(51% 0.158 72.3)", "oklch(63% 0.158 72.3)", "oklch(75% 0.158 72.3)", "oklch(87% 0.13 72.3)", "oklch(95% 0.093 72.3)"] },
+      "amber-600": { "role": "tertiary", "displayName": "Signal Amber, Pressed", "canonical": "oklch(71.3% 0.151 70.4)", "tonalRamp": ["oklch(15% 0.089 70.4)", "oklch(27% 0.142 70.4)", "oklch(39% 0.151 70.4)", "oklch(51% 0.151 70.4)", "oklch(63% 0.151 70.4)", "oklch(75% 0.151 70.4)", "oklch(87% 0.124 70.4)", "oklch(95% 0.089 70.4)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(20.8% 0.04 265.8)", "tonalRamp": ["oklch(15% 0.023 265.8)", "oklch(27% 0.037 265.8)", "oklch(39% 0.04 265.8)", "oklch(51% 0.04 265.8)", "oklch(63% 0.04 265.8)", "oklch(75% 0.04 265.8)", "oklch(87% 0.033 265.8)", "oklch(95% 0.023 265.8)"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink, Secondary", "canonical": "oklch(40.7% 0.046 260.5)", "tonalRamp": ["oklch(15% 0.027 260.5)", "oklch(27% 0.043 260.5)", "oklch(39% 0.046 260.5)", "oklch(51% 0.046 260.5)", "oklch(63% 0.046 260.5)", "oklch(75% 0.046 260.5)", "oklch(87% 0.038 260.5)", "oklch(95% 0.027 260.5)"] },
+      "ink-3": { "role": "neutral", "displayName": "Ink, Tertiary", "canonical": "oklch(55.4% 0.041 257.4)", "tonalRamp": ["oklch(15% 0.024 257.4)", "oklch(27% 0.038 257.4)", "oklch(39% 0.041 257.4)", "oklch(51% 0.041 257.4)", "oklch(63% 0.041 257.4)", "oklch(75% 0.041 257.4)", "oklch(87% 0.033 257.4)", "oklch(95% 0.024 257.4)"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "oklch(89.8% 0.016 257.2)", "tonalRamp": ["oklch(15% 0.009 257.2)", "oklch(27% 0.015 257.2)", "oklch(39% 0.016 257.2)", "oklch(51% 0.016 257.2)", "oklch(63% 0.016 257.2)", "oklch(75% 0.016 257.2)", "oklch(87% 0.013 257.2)", "oklch(95% 0.009 257.2)"] },
+      "grey": { "role": "neutral", "displayName": "Cool Grey", "canonical": "oklch(96.0% 0.008 253.9)", "tonalRamp": ["oklch(15% 0.005 253.9)", "oklch(27% 0.007 253.9)", "oklch(39% 0.008 253.9)", "oklch(51% 0.008 253.9)", "oklch(63% 0.008 253.9)", "oklch(75% 0.008 253.9)", "oklch(87% 0.007 253.9)", "oklch(95% 0.005 253.9)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "oklch(100% 0 0)", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] },
+      "on-navy-2": { "role": "neutral", "displayName": "On-Navy Secondary", "canonical": "oklch(82.6% 0.035 259.4)", "tonalRamp": ["oklch(15% 0.02 259.4)", "oklch(27% 0.032 259.4)", "oklch(39% 0.035 259.4)", "oklch(51% 0.035 259.4)", "oklch(63% 0.035 259.4)", "oklch(75% 0.035 259.4)", "oklch(87% 0.028 259.4)", "oklch(95% 0.02 259.4)"] },
+      "error": { "role": "neutral", "displayName": "Error", "canonical": "oklch(54.3% 0.174 29.7)", "tonalRamp": ["oklch(15% 0.102 29.7)", "oklch(27% 0.163 29.7)", "oklch(39% 0.174 29.7)", "oklch(51% 0.174 29.7)", "oklch(63% 0.174 29.7)", "oklch(75% 0.174 29.7)", "oklch(87% 0.143 29.7)", "oklch(95% 0.102 29.7)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The hero headline only; white on the navy overlay, capped at 14 characters per line (12 on mobile)." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles; white on navy sections. Uses text-wrap: balance." },
+      "title": { "displayName": "Title", "purpose": "Card and tile headings. Steps down to 1.25rem in industry tiles and 1.1875rem in the benefits row." },
+      "lead": { "displayName": "Lead", "purpose": "The paragraph under a section headline and the contact intro, in ink-2; max 62ch under headlines, 44ch in the contact column." },
+      "body": { "displayName": "Body", "purpose": "Everything else: card copy, company paragraphs, footer text. 17px at 1.6." },
+      "label": { "displayName": "Label", "purpose": "Nav links (500), form labels (600), the industry strip (600, 0.01em), check-lists. Sentence case, never uppercase." },
+      "small": { "displayName": "Small", "purpose": "The form note and the footer legal line." }
+    },
+    "shadows": [
+      { "name": "shadow", "value": "0 8px 24px rgba(10, 30, 60, 0.10)", "purpose": "Standard: the form panel at rest, service cards on hover, the mobile nav dropdown." },
+      { "name": "shadow-lg", "value": "0 16px 40px rgba(10, 30, 60, 0.16)", "purpose": "Large: the company photograph at rest; the one image presented as an object rather than a fill." },
+      { "name": "focus-ring-input", "value": "0 0 0 3px rgba(27, 95, 191, 0.18)", "purpose": "Text inputs and textareas on focus, paired with an ocean border." },
+      { "name": "focus-outline", "value": "outline: 3px solid #1b5fbf; outline-offset: 3px; border-radius: 3px", "purpose": "Global :focus-visible ring on links, buttons, and the nav toggle, ocean on light surfaces; inside .hero, .section--navy, and .footer the outline-color switches to amber #f5a524." },
+      { "name": "hero-shade", "value": "linear-gradient(90deg, rgba(10,30,60,0.92) 0%, rgba(10,30,60,0.78) 38%, rgba(10,30,60,0.30) 70%, rgba(10,30,60,0.10) 100%), linear-gradient(180deg, rgba(10,30,60,0.15) 0%, rgba(10,30,60,0) 30%, rgba(10,30,60,0.45) 100%)", "purpose": "Two-pass overlay on the hero photograph; below 860px it becomes a uniform 70% / 70% / 55% vertical pass." },
+      { "name": "nav-glass", "value": "background: rgba(255,255,255,0.92); backdrop-filter: saturate(180%) blur(10px)", "purpose": "The sticky nav; the only glass in the system." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The only easing; exponential ease-out for every transition and the hero entrance." },
+      { "name": "duration-state", "value": "200ms", "purpose": "Color, border, background, and transform on buttons, nav links, inputs, and the nav hairline." },
+      { "name": "duration-tile", "value": "250ms", "purpose": "Industry tile background on hover." },
+      { "name": "duration-lift", "value": "300ms", "purpose": "Service card lift and shadow; text-link arrow slide (3px)." },
+      { "name": "duration-image", "value": "600ms", "purpose": "Service card image scale to 1.03 on hover." },
+      { "name": "duration-entrance", "value": "700ms", "purpose": "Hero title, lead, and actions rise 24px and fade in, staggered 120ms (0 / 120 / 240ms). Disabled under prefers-reduced-motion." },
+      { "name": "nav-scroll-threshold", "value": "8px", "purpose": "Scroll distance after which the nav draws its hairline bottom border." }
+    ],
+    "breakpoints": [
+      { "name": "lg", "value": "1024px", "purpose": "max-width: services two-up, industries three-up, footer two columns." },
+      { "name": "md", "value": "860px", "purpose": "max-width: nav collapses to toggle; hero uncapped with uniform overlay; strip unpins and wraps; band, company, benefits, contact, footer stack." },
+      { "name": "sm", "value": "640px", "purpose": "max-width: services and form rows one-up, industries two-up, hero buttons full width." },
+      { "name": "xs", "value": "360px", "purpose": "max-width: industries one-up." }
+    ],
+    "layout": {
+      "container": "1200px",
+      "gutter": "clamp(20px, 4vw, 40px)",
+      "navHeight": "72px",
+      "heroMinHeight": "min(calc(100svh - 72px), 900px)",
+      "stripHeight": "64px",
+      "sectionPadding": "clamp(72px, 9vw, 120px)",
+      "spacingSteps": [8, 12, 14, 18, 20, 24, 28, 32, 36, 40, 48, 64]
+    },
+    "iconography": {
+      "viewBox": "0 0 24 24",
+      "strokeWidth": 1.75,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round",
+      "fill": "none",
+      "renderSizes": { "industryTile": 36, "benefit": 32, "contactList": 22, "inlineButton": 20, "textLinkArrow": 18 }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single amber action on a view; navy text, 6px radius, hover darkens to amber-600, active presses 1px.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Request a quote</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 10px; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1.0625rem; font-weight: 600; line-height: 1.2; text-decoration: none; cursor: pointer; white-space: nowrap; border-radius: var(--radius, 6px); border: 1.5px solid transparent; padding: 16px 26px; background: var(--amber, #f5a524); color: var(--navy, #0a1e3c); transition: background-color .2s cubic-bezier(0.16, 1, 0.3, 1), transform .2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-primary:hover { background: var(--amber-600, #dd8f0e); color: var(--navy, #0a1e3c); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 3px solid var(--ocean, #1b5fbf); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The peer action on navy: white text, 6% white fill, 70% white 1.5px border; hover raises fill to 14% and border to solid white; focus ring is amber because it sits inside a navy surface. Never used on light surfaces.",
+      "html": "<div class=\"ds-on-navy\"><a class=\"ds-btn-ghost\" href=\"tel:+16452029009\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>Call +1 (645) 202-9009</a></div>",
+      "css": ".ds-on-navy { background: var(--navy, #0a1e3c); padding: 24px; } .ds-btn-ghost { display: inline-flex; align-items: center; gap: 10px; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1.0625rem; font-weight: 600; line-height: 1.2; text-decoration: none; cursor: pointer; white-space: nowrap; border-radius: var(--radius, 6px); padding: 16px 26px; background: rgba(255,255,255,0.06); color: var(--white, #ffffff); border: 1.5px solid rgba(255,255,255,0.7); transition: background-color .2s cubic-bezier(0.16, 1, 0.3, 1), border-color .2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-ghost svg { fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; } .ds-btn-ghost:hover { background: rgba(255,255,255,0.14); border-color: var(--white, #ffffff); } .ds-btn-ghost:active { transform: translateY(1px); } .ds-on-navy .ds-btn-ghost:focus-visible { outline: 3px solid var(--amber, #f5a524); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label above at 0.9375rem / 600; white field with 1.5px hairline border, 6px radius; focus turns the border ocean and adds an 18% ocean ring; invalid after submit turns the border error red.",
+      "html": "<label class=\"ds-field\"><span>Work email <span class=\"ds-field__opt\">(optional)</span></span><input class=\"ds-input\" type=\"email\" placeholder=\"name@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 8px; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 0.9375rem; font-weight: 600; color: var(--ink, #0f172a); } .ds-field__opt { font-weight: 400; color: var(--ink-3, #64748b); } .ds-input { font: inherit; font-size: 1rem; font-weight: 400; color: var(--ink, #0f172a); width: 100%; padding: 12px 14px; border: 1.5px solid var(--line, #d7dee8); border-radius: var(--radius, 6px); background: var(--white, #ffffff); transition: border-color .2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow .2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-input::placeholder { color: var(--ink-3, #64748b); } .ds-input:hover { border-color: #b7c3d3; } .ds-input:focus { outline: none; border-color: var(--ocean, #1b5fbf); box-shadow: 0 0 0 3px rgba(27,95,191,0.18); } .ds-input:user-invalid { border-color: #c0392b; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky 72px bar, translucent white with backdrop blur; logo left, label-weight links with a 2px ocean underline on hover, small primary button right. Gains a hairline after 8px of scroll.",
+      "html": "<header class=\"ds-nav ds-nav--scrolled\"><div class=\"ds-nav__inner\"><a class=\"ds-logo\" href=\"#\"><svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"currentColor\"/><path d=\"M13 10v20M13 20l11-10M13 20l11 10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span class=\"ds-logo__word\">Kappa<span> Solutions</span></span></a><nav class=\"ds-nav__links\"><a href=\"#\">Services</a><a href=\"#\">Industries</a><a href=\"#\">Company</a><a href=\"#\">Contact</a><a class=\"ds-nav__cta\" href=\"#\">Request a quote</a></nav></div></header>",
+      "css": ".ds-nav { position: sticky; top: 0; background: rgba(255,255,255,0.92); backdrop-filter: saturate(180%) blur(10px); -webkit-backdrop-filter: saturate(180%) blur(10px); border-bottom: 1px solid transparent; transition: border-color .2s cubic-bezier(0.16, 1, 0.3, 1); font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; } .ds-nav--scrolled { border-bottom-color: var(--line, #d7dee8); } .ds-nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 24px; padding: 0 clamp(20px, 4vw, 40px); } .ds-logo { display: inline-flex; align-items: center; gap: 12px; color: var(--navy, #0a1e3c); text-decoration: none; } .ds-logo__word { font-weight: 700; font-stretch: 112%; letter-spacing: -0.02em; font-size: 1.25rem; line-height: 1; color: var(--navy, #0a1e3c); } .ds-logo__word span { font-weight: 500; font-stretch: 100%; letter-spacing: 0; color: var(--ink-2, #3b4a63); } .ds-nav__links { display: flex; align-items: center; gap: 28px; } .ds-nav__links a:not(.ds-nav__cta) { color: var(--ink, #0f172a); text-decoration: none; font-weight: 500; font-size: 0.9375rem; padding: 6px 0; border-bottom: 2px solid transparent; transition: border-color .2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav__links a:not(.ds-nav__cta):hover { border-bottom-color: var(--ocean, #1b5fbf); } .ds-nav__cta { margin-left: 8px; display: inline-flex; align-items: center; font-size: 0.9375rem; font-weight: 600; line-height: 1.2; text-decoration: none; border-radius: var(--radius, 6px); border: 1.5px solid transparent; padding: 10px 16px; background: var(--amber, #f5a524); color: var(--navy, #0a1e3c); transition: background-color .2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav__cta:hover { background: var(--amber-600, #dd8f0e); } .ds-nav a:focus-visible { outline: 3px solid var(--ocean, #1b5fbf); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "card-service",
+      "description": "White panel with a 1px hairline and 6px radius; 4:3 media on top, title / paragraph / hairline-ruled check-list below. Flat at rest; on hover lifts 2px with the standard shadow while the image scales 1.03.",
+      "html": "<article class=\"ds-service\"><div class=\"ds-service__media\"></div><div class=\"ds-service__body\"><h3>Logistics services</h3><p>Transport, storage, and distribution of products at a local and international level.</p><ul class=\"ds-checks\"><li>Freight transport, domestic and international</li><li>Warehousing and inventory storage</li><li>Last-mile distribution</li></ul></div></article>",
+      "css": ".ds-service { display: flex; flex-direction: column; max-width: 380px; background: var(--white, #ffffff); border: 1px solid var(--line, #d7dee8); border-radius: var(--radius, 6px); overflow: hidden; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; color: var(--ink, #0f172a); transition: transform .3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow .3s cubic-bezier(0.16, 1, 0.3, 1); } .ds-service:hover { transform: translateY(-2px); box-shadow: var(--shadow, 0 8px 24px rgba(10, 30, 60, 0.10)); } .ds-service__media { aspect-ratio: 4 / 3; background: var(--grey, #eef2f7); } .ds-service__body { padding: 28px 28px 32px; display: flex; flex-direction: column; gap: 14px; } .ds-service h3 { margin: 0; font-size: 1.375rem; line-height: 1.25; font-weight: 700; font-stretch: 112%; letter-spacing: -0.02em; text-wrap: balance; } .ds-service p { margin: 0; font-size: 1.0625rem; line-height: 1.6; color: var(--ink-2, #3b4a63); } .ds-checks { list-style: none; margin: 10px 0 0; padding: 0; font-size: 0.9375rem; line-height: 1.6; color: var(--ink-2, #3b4a63); } .ds-checks li { padding: 9px 0; border-top: 1px solid var(--line, #d7dee8); } .ds-checks li:last-child { border-bottom: 1px solid var(--line, #d7dee8); }"
+    },
+    {
+      "name": "Industry Tile",
+      "kind": "custom",
+      "refersTo": "industry-tile",
+      "description": "Navy tiles in a grid separated by 1px gutters of 12% white with a 6px outer radius; 36px white stroke icon, 1.25rem title, on-navy-2 description; hover shifts to navy-800.",
+      "html": "<ul class=\"ds-industries\"><li><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 7h18M7 7v14M4 21h6M7 7 3 3M17 7v5M15 12h4v4h-4z\"/></svg><h3>Construction</h3><p>Materials, tools, and equipment for site and structure.</p></li><li><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M13 2 4 14h7l-1 8 9-12h-7l1-8z\"/></svg><h3>Energy</h3><p>Components and supplies for generation and distribution.</p></li></ul>",
+      "css": ".ds-industries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius, 6px); overflow: hidden; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; } .ds-industries li { background: var(--navy, #0a1e3c); padding: 32px 28px 30px; display: flex; flex-direction: column; gap: 12px; transition: background-color .25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-industries li:hover { background: var(--navy-800, #122a4d); } .ds-industries svg { width: 36px; height: 36px; fill: none; stroke: var(--white, #ffffff); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; margin-bottom: 6px; } .ds-industries h3 { margin: 0; font-size: 1.25rem; line-height: 1.25; font-weight: 700; font-stretch: 112%; letter-spacing: -0.02em; color: var(--white, #ffffff); } .ds-industries p { margin: 0; font-size: 0.9375rem; line-height: 1.6; color: var(--on-navy-2, #b9c7dd); }"
+    },
+    {
+      "name": "Industry Strip",
+      "kind": "custom",
+      "refersTo": "industry-strip",
+      "description": "The 64px white bar anchored to the hero's bottom edge: seven industries in one row at 0.9375rem / 600 with 0.01em tracking, each led by an 8px ocean dot. Wraps and unpins below 860px.",
+      "html": "<div class=\"ds-strip-wrap\"><ul class=\"ds-strip\"><li>Construction</li><li>Energy</li><li>Metallurgical &amp; Foundry</li><li>Tools</li><li>Agriculture</li><li>Chemical Products</li><li>Medical Equipment</li></ul></div>",
+      "css": ".ds-strip-wrap { background: var(--white, #ffffff); color: var(--navy, #0a1e3c); border-bottom: 1px solid var(--line, #d7dee8); padding: 0 clamp(20px, 4vw, 40px); font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; } .ds-strip { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px 28px; height: 64px; overflow-x: auto; scrollbar-width: none; font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.01em; white-space: nowrap; } .ds-strip::-webkit-scrollbar { display: none; } .ds-strip li { display: inline-flex; align-items: center; gap: 12px; } .ds-strip li::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--ocean, #1b5fbf); flex: none; }"
+    },
+    {
+      "name": "Contact List Item",
+      "kind": "custom",
+      "refersTo": "nav-link",
+      "description": "Icon-led contact row: 22px ocean stroke icon, 1.0625rem / 500 ink text; links turn ocean with an underline on hover.",
+      "html": "<ul class=\"ds-contact\"><li><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg><a href=\"tel:+16452029009\">+1 (645) 202-9009</a></li><li><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h18v12H3zM3 7l9 6 9-6\"/></svg><a href=\"mailto:info.kappasolutions26@gmail.com\">info.kappasolutions26@gmail.com</a></li></ul>",
+      "css": ".ds-contact { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; } .ds-contact li { display: flex; align-items: flex-start; gap: 14px; font-size: 1.0625rem; font-weight: 500; line-height: 1.45; color: var(--ink, #0f172a); } .ds-contact svg { flex: none; width: 22px; height: 22px; margin-top: 2px; fill: none; stroke: var(--ocean, #1b5fbf); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; } .ds-contact a { color: var(--ink, #0f172a); text-decoration: none; } .ds-contact a:hover { color: var(--ocean, #1b5fbf); text-decoration: underline; } .ds-contact a:focus-visible { outline: 3px solid var(--ocean, #1b5fbf); outline-offset: 3px; border-radius: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Port Authority",
+    "overview": "The system is the category standard for a global logistics company, executed at the finish level of Flexport, Maersk, and DHL and chosen deliberately over any signature quirk. It reads as the institution that runs the port: deep navy bands anchor the page at the top (hero), the middle (industries), and the bottom (footer), and white and cool-grey content sections alternate between them. Photography is real industrial work (a container terminal, a loading dock, a warehouse aisle, a welder) and it is either full-bleed or framed in 4:3 blocks; it never sits inside an icon tile.\n\nDensity is corporate-comfortable: generous section padding, a 1200px container, three-up card grids, and one column of copy that never exceeds about 62 characters. One typeface carries everything. Archivo variable is widened to 112 and set bold with negative tracking for every heading, then returned to normal width and regular weight for body text. That width shift is the entire typographic hierarchy; there is no second family, no uppercase, no tracked-out label.\n\nMotion is a single authored moment (the hero's rise-and-fade on load) plus quiet hover responses on cards, tiles, and links. Confirmed rejections: no eyebrow or kicker labels above headings, no glyph or icon-font icons, no shadows on resting cards, no black.",
+    "keyCharacteristics": [
+      "Navy anchors at top, middle, and bottom; white and grey alternate between them.",
+      "One accent for action (amber), one for wayfinding (ocean blue); both rare.",
+      "One face, two widths: Archivo at width 112 / weight 700 for headings, 100 / 400 for text.",
+      "Hairlines draw structure; shadows are reserved for two lifted surfaces and hover.",
+      "A single 6px radius on every rectangle.",
+      "Authored inline SVG icons on a 24px grid, 1.75px stroke, round caps, no fill."
+    ],
+    "rules": [
+      { "name": "The Amber Once Rule", "body": "Amber marks the primary action and nothing else on a screen: one button per view, plus text selection and the focus ring only inside navy surfaces. It is never a text color, an icon stroke, a divider, or a decoration.", "section": "colors" },
+      { "name": "The Navy Anchors Rule", "body": "Navy owns whole bands, not fragments: the hero, the industries section, the footer. Between them, sections alternate white and cool grey. Text on navy is white; secondary text on navy is {colors.on-navy-2}, never a grey from the light palette.", "section": "colors" },
+      { "name": "The Ocean Wayfinding Rule", "body": "Anything that points somewhere or reports state is ocean blue: links, icon strokes on light surfaces, strip dots, the focus ring on light surfaces, input focus borders. Ocean never fills a button.", "section": "colors" },
+      { "name": "The One Face, Two Widths Rule", "body": "Every heading is Archivo at width 112, weight 700, negative tracking; every text run is width 100, weight 400. Hierarchy comes from width, weight, and size; never from a second family, uppercase, or letter-spacing above 0.01em.", "section": "typography" },
+      { "name": "The Balanced Heading Rule", "body": "Headings use text-wrap: balance and a character cap (14ch display, 62ch section head) so the last line is never an orphan.", "section": "typography" },
+      { "name": "The Hairline First Rule", "body": "Draw structure with 1px hairlines and tonal bands. A shadow is reserved for surfaces that are genuinely lifted (the form panel, the company photo) or for a hover response; never on a resting card, tile, or button.", "section": "elevation" },
+      { "name": "The Navy Shadow Rule", "body": "Every shadow is tinted with navy (rgba(10, 30, 60, …)), never neutral black, so lifted surfaces sit in the same air as the bands.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do reserve amber for the single primary action on a view, text selection, and the focus ring inside navy surfaces only; the Amber Once Rule.",
+      "Do use ocean blue for links, icon strokes on light surfaces, strip dots, input focus, and the focus ring on light surfaces; the Ocean Wayfinding Rule.",
+      "Do set every heading in Archivo at width 112, weight 700, with -0.02em tracking (-0.025em for the display), and every text run at width 100, weight 400.",
+      "Do keep amber buttons paired with navy text and ghost buttons on navy only.",
+      "Do draw structure with 1px hairlines: {colors.line} on light, white at 12–14% on navy.",
+      "Do author icons as inline SVG on a 24px viewBox, 1.75px stroke, round caps and joins, no fill.",
+      "Do present photography full-bleed or in 4:3 frames with object-fit: cover, and keep images out of icon tiles.",
+      "Do use the exponential ease-out (cubic-bezier(0.16, 1, 0.3, 1)) for every transition: 200ms for color and border, 300ms for lifts and arrows, 600ms for image scale, 700ms for the hero entrance.",
+      "Do honor prefers-reduced-motion by removing the entrance animation and smooth scrolling.",
+      "Do cap the hero at 900px and keep it capped rather than stretching it on tall screens."
+    ],
+    "donts": [
+      "Don't place an eyebrow or kicker label above a heading; headings open sections directly.",
+      "Don't set text in uppercase or track it out beyond 0.01em; hierarchy is width and weight.",
+      "Don't introduce a second typeface or fall back to a system display face; the fallback stack exists only for font swap.",
+      "Don't put a shadow on a resting card, tile, or button; shadows belong to the form panel, the company photo, and hover.",
+      "Don't use pure black; ink {colors.ink} is the darkest text and navy the darkest surface.",
+      "Don't use a radius other than 6px on rectangles (3px on the focus outline); no pill buttons, no rounded-corner scale.",
+      "Don't fill a button with ocean blue or navy on light surfaces; ocean is for wayfinding, and the only filled button is amber.",
+      "Don't use amber as text, icon stroke, divider, or background tint.",
+      "Don't use glyph or icon-font icons, or icons with a different stroke weight than 1.75px.",
+      "Don't tint a shadow with neutral black; every shadow is navy-based."
+    ]
+  }
+}
